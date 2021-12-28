@@ -1,0 +1,32 @@
+
+/* #myVideo{
+    width: 100%;
+} */
+#myImg{
+    width: 100%;
+    height: auto;
+    
+}
+
+.centered-heading{
+    position: absolute;
+    weight: bold;
+    top: 40%;
+    left: 40%;
+    color: rgb(238, 255, 0);
+    font-size: 4em;
+}
+
+.centered{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    color: rgb(238, 255, 0);
+    font-size: 1.5em;
+}
+
+#continue{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+}
