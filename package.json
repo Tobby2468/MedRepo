@@ -1,6 +1,9 @@
 {
   "name": "medapp",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.13.1"
+  },
   "description": "first medical project",
   "main": "index.js",
   "scripts": {
