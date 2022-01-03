@@ -163,6 +163,12 @@ client.connect()
 });
 });
 
-app.listen(2000, ()=>{
-    console.log('listening to port 2000');
-})
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 2000;
+}
+app.listen(port);
+
+// app.listen(2000, ()=>{
+//     console.log('listening to port 2000');
+// })
