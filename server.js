@@ -175,4 +175,4 @@ client.connect()
 //      console.log('listening to port 2000');
 //  })
 
-require('dotenv').config()
+//require('dotenv').config()
