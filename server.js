@@ -1,4 +1,4 @@
-require('dotenv').config()
+
 
 const express = require('express');
 const mustacheExpress = require('mustache-express');
@@ -165,12 +165,14 @@ client.connect()
 });
 });
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 2000;
-}
-app.listen(port);
+ let port = process.env.PORT;
+ if (port == null || port == "") {
+   port = 2000;
+ }
+ app.listen(port);
 
-// app.listen(2000, ()=>{
-//     console.log('listening to port 2000');
-// })
+//  app.listen(2000, ()=>{
+//      console.log('listening to port 2000');
+//  })
+
+require('dotenv').config()
