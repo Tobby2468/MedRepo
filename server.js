@@ -4,6 +4,7 @@ const express = require('express');
 const mustacheExpress = require('mustache-express');
 const bodyParser = require('body-parser');
 
+const db = require('./models/index.js');
 
 const app = express();
 const mustache = mustacheExpress();
