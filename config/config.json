@@ -3,23 +3,27 @@
     "username": "postgres",
     "password": "Tobby@2468",
     "database": "medical",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
     
   },
   "test": {
     "username": "postgres",
     "password": "Tobby@2468",
     "database": "medical",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
   },
   "production": {
     "username": "postgres",
     "password": "Tobby@2468",
     "database": "medical",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "use_env_variable": "DATABASE_URL"
     
   }
 }
