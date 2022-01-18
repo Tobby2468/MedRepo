@@ -166,7 +166,7 @@ client.connect()
 });
 });
 
- let port = process.env.PORT;
+ let port = process.env.NODE_ENV;
  if (port == null || port == "") {
    port = 2000;
  }
